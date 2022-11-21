@@ -20,17 +20,18 @@ menu:
     - name: "About"
       url: "/about/"
       weight: 2
-    - name: "Categories"
-      url: "/categories/"
+    - name: "Posts"
+      url: "/posts/"
       weight: 3
+    - name: "Notes"
+      url: "/notes/"
+      weight: 4
     - name: "Tags"
       url: "/tags/"
-      weight: 4
-    - name: "Subscribe"
-      url: "/index.xml"
+      weight: 5
 
 params:
-  description: "A Hugo theme ported from the static site generator Ivy."
+  description: ""
   footer: "&copy; [Adnan](/) {Year} | [Github](https://github.com/kraqent)"
   highlightjsCDN: "//cdn.bootcss.com"
   highlightjsLang: ["r", "yaml", "tex"]
